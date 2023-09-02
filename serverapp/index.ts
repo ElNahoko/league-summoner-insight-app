@@ -1,6 +1,5 @@
 const app = require('express')()
 const bodyParser = require('body-parser')
-const cookieParser = require('cookie-parser')
 const cors = require('cors')
 
 const api = require('./routes')
@@ -11,8 +10,6 @@ require('dotenv').config()
  * @constructor Initialisation du port et des données du server
  */
 const port = process.env.PORT || 8080
-
-app.use(cookieParser())
 
 /**
  * @description Define origin allowed
