@@ -1,0 +1,29 @@
+{
+    "compilerOptions": {
+        "target": "es2016",
+        "lib": [
+            "es6"
+        ],
+        "module": "commonjs",
+        "rootDir": "./",
+        "typeRoots": [
+            "./node_modules/@types"
+        ],
+        "types": [
+            "node"
+        ],
+        "resolveJsonModule": true,
+        "allowJs": true,
+        "outDir": "build",
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "strict": true,
+        "noImplicitAny": true,
+        "useUnknownInCatchVariables": true,
+        "skipLibCheck": true
+    },
+    "exclude": [
+        "build",
+        "node_modules"
+    ]
+}
