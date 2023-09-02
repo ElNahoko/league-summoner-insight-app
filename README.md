@@ -17,6 +17,15 @@ Welcome to the Summoner Insight App repository! This app allows you to get insig
 - Tailwind CSS: A utility-first CSS framework for styling the app.
 - API Services: Custom services to fetch summoner data and champion masteries from the backend.
 - FontAwesome Icons: Used for icons like stars, trophies, and chests.
+- 
+### Screenshots
+
+Click on the links below to view the screenshots:
+
+- [Summoner Insight Homepage](screenshots/home.png)
+- [Summoner Card](screenshots/summoner-profile.png)
+- [Champion Mastery Card](screenshots/summoner-top-champions.png)
+
 
 ## 🏁 Getting Started
 
