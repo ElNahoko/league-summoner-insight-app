@@ -17,8 +17,8 @@ Welcome to the Summoner Insight App repository! This app allows you to get insig
 - Tailwind CSS: A utility-first CSS framework for styling the app.
 - API Services: Custom services to fetch summoner data and champion masteries from the backend.
 - FontAwesome Icons: Used for icons like stars, trophies, and chests.
-- 
-### Screenshots
+
+## Screenshots
 
 Click on the links below to view the screenshots:
 
@@ -26,14 +26,19 @@ Click on the links below to view the screenshots:
 - [Summoner Card](screenshots/summoner-profile.png)
 - [Champion Mastery Card](screenshots/summoner-top-champions.png)
 
-
 ## 🏁 Getting Started
 
-1. Clone the repository: `git clone https://github.com/your-username/summoner-insight-app.git`
+1. Clone the repository.
 2. Navigate to the project directory: `cd summoner-insight-app`
-3. Install dependencies: `npm install`
-4. Start the development server: `npm start`
-5. Open your browser and go to `http://localhost:3000` to use the app.
+3. Navigate to the frontend directory: `cd clientapp`
+4. Install frontend dependencies: `npm install`
+5. Start the frontend development server: `npm run dev`
+6. Open your browser and go to `http://localhost:3000` to use the app.
+
+7. Navigate to the backend directory: `cd serverapp`
+8. Install backend dependencies: `npm install`
+9. Start the backend server: `npm run dev`
+10. The backend server will run on `http://localhost:8080`.
 
 ## 🤝 Contributing
 
