@@ -4,8 +4,8 @@ import { useState, useEffect } from 'react';
 
 import LoadingSpinner from '../LoadingSpinner';
 import SummonerCardInfo from './SummonerCardInfo';
-import { fetchSummonerData } from '@components/services/api.services';
-import { SummonerCardFetchState, SummonerFetchStateType, SumonnerCardPropsType } from "@components/types/summoner.types";
+import { fetchSummonerData } from '@/services/api.services';
+import { SummonerCardFetchState, SummonerFetchStateType, SumonnerCardPropsType } from "@/types/summoner.types";
 import SummonerCardError from './SummonerCardError';
 
 

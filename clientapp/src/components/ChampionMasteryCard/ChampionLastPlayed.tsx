@@ -1,7 +1,7 @@
 import React from 'react';
 import { format } from 'date-fns';
 
-import { ChampionLastPlayedPropsType } from '@components/types/champion.types';
+import { ChampionLastPlayedPropsType } from '@/types/champion.types';
 
 export const ChampionLastPlayed: React.FC<ChampionLastPlayedPropsType> = ({ lastPlayTime }) => (
     <div className="flex items-center space-x-2 mt-2">

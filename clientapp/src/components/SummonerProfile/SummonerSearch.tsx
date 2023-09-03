@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import SearchBar from '@components/components/SearchBar';
+import SearchBar from '@/components/SearchBar';
 import SummonerCard from '../SummonerCard';
 
 const SummonerSearch: React.FC<{ onProfileFetched: (encryptedPUUID: string) => void }> = ({ onProfileFetched }) => {

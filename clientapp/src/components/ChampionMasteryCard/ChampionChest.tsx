@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { ChampionChestPropsType } from '@components/types/champion.types';
+import { ChampionChestPropsType } from '@/types/champion.types';
 
 export const ChampionChest: React.FC<ChampionChestPropsType> = ({ chestGranted }) => (
     <div className="flex items-center space-x-2 mt-2">

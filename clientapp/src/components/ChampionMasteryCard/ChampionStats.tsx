@@ -1,6 +1,6 @@
 import React from 'react';
-import { formatNumberWithCommas } from '@components/utils/championUtils';
-import { ChampionStatsPropsType } from '@components/types/champion.types';
+import { formatNumberWithCommas } from '@/utils/championUtils';
+import { ChampionStatsPropsType } from '@/types/champion.types';
 
 export const ChampionStats: React.FC<ChampionStatsPropsType> = ({ level, points }) => (
     <div>

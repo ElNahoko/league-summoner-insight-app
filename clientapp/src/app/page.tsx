@@ -1,4 +1,4 @@
-import SummonerProfile from "@components/components/SummonerProfile";
+import SummonerProfile from "@/components/SummonerProfile";
 
 export default function Page() {
   return (

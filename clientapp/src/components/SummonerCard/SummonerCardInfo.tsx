@@ -1,6 +1,6 @@
 import React from 'react';
-import { SummonerProfileType } from "@components/types/summoner.types";
-import { ddragon_profileIcon_url } from '@components/Api';
+import { SummonerProfileType } from "@/types/summoner.types";
+import { ddragon_profileIcon_url } from '@/Api';
 import { format } from 'date-fns';
 
 type SummonerCardInfoPropsType = {
