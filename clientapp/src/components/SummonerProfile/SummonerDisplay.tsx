@@ -1,6 +1,7 @@
-import React, { useState } from 'react';
+import React from 'react';
 import ChampionMasteryCard from '../ChampionMasteryCard';
 import TopChampionOptions from './TopChampionOptions';
+import MatchDetails from '../MatchDetails';
 
 const SummonerDisplay: React.FC<{
     encryptedPUUID: string;
@@ -18,6 +19,9 @@ const SummonerDisplay: React.FC<{
         />
         {showTopChampions && encryptedPUUID && (
             <ChampionMasteryCard encryptedPUUID={encryptedPUUID} count={count} />
+        )}
+        {encryptedPUUID && (
+            <MatchDetails encryptedPUUID={encryptedPUUID} />
         )}
     </div>
 );
