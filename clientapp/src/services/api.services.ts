@@ -20,3 +20,11 @@ export async function fetchChampionMasteries(encryptedPUUID: string, count: numb
     const res = await fetch(`${backend_api_url}/champion-mastery/${encryptedPUUID}?count=${count}`);
     return await res.json();
 }
+
+export async function fetchMatchDetails(encryptedPUUID: string) {
+    const res = await fetch(`${backend_api_url}/match/${encryptedPUUID}`);
+    if (!res.ok) {
+        throw new Error(res.statusText);
+    }
+    return await res.json();
+}
